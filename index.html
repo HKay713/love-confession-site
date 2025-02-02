@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Invite</title>
+    <title>Special Invitation ❤️</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h2>Fill Your Details</h2>
+        <h2>Fill in your details</h2>
         <form id="loveForm">
             <label>Full Name:</label>
             <input type="text" required><br>
@@ -16,8 +16,20 @@
             <label>Date of Birth:</label>
             <input type="date" required><br>
 
-            <label>Address:</label>
-            <textarea required></textarea><br>
+            <label>Building Name/House No.:</label>
+            <input type="text" required><br>
+
+            <label>City:</label>
+            <input type="text" required><br>
+
+            <label>Pincode:</label>
+            <input type="text" pattern="\d{6}" title="Enter a valid 6-digit pincode" required><br>
+
+            <label>State/Union Territory:</label>
+            <input type="text" required><br>
+
+            <label>Country:</label>
+            <input type="text" value="India" required><br>
 
             <label>Sex:</label>
             <button type="button" id="sexYes">Yes</button>
@@ -32,6 +44,7 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
