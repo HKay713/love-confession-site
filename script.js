@@ -6,7 +6,7 @@ function playFloatingHearts() {
     for (let i = 0; i < 30; i++) {
         let heart = document.createElement("div");
         heart.className = "heart";
-        heart.innerHTML = "💕💕💕💕💕💕💕💕💕💕💕💕💕";
+        heart.innerHTML = "💕";
         heart.style.left = Math.random() * 100 + "vw";
         heart.style.top = Math.random() * 100 + "vh";
         heart.style.position = "absolute";
