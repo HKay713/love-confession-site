@@ -1,46 +1,43 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #fff3f3;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
+/* Container Box */
 .container {
     width: 90%;
     max-width: 400px;
     margin: 50px auto;
     background: white;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
+/* Input Fields & Buttons */
 input, select, button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
+    font-size: 16px;
 }
 
+/* Button Styles */
 button {
     cursor: pointer;
     background-color: #ff4d6d;
     color: white;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
+    transition: background 0.3s ease-in-out;
 }
 
 button:hover {
-    background-color: #ff1e4d;
-}
-
-@keyframes floatHearts {
-    0% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(-100vh); opacity: 0; }
-}
-
-.heart {
-    position: absolute;
-    font-size: 24px;
-    animation: floatHearts 5s linear infinite;
-}
+    background-col
